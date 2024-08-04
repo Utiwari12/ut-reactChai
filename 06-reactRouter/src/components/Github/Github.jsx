@@ -23,6 +23,10 @@ function Github() {
 export default Github
 
 export const githubInfoLoader = async () => {
+<<<<<<< HEAD
     const response = await fetch('https://api.github.com/users/Utiwari12')
+=======
+    const response = await fetch('https://api.github.com/users/hiteshchoudhary')
+>>>>>>> 2dfed97aadd0a7ac6fa38cff3e7ba49eec980586
     return response.json()
 }

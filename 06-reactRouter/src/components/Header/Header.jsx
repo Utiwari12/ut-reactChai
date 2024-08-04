@@ -76,6 +76,7 @@ export default function Header() {
                                     Github
                                 </NavLink>
                             </li>
+<<<<<<< HEAD
                             <li>
                                 <NavLink
                                 to="/user"
@@ -86,6 +87,8 @@ export default function Header() {
                                     User
                                 </NavLink>
                             </li>
+=======
+>>>>>>> 2dfed97aadd0a7ac6fa38cff3e7ba49eec980586
 
                         </ul>
                     </div>
