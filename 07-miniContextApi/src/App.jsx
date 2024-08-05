@@ -1,12 +1,21 @@
-import React from 'react'
+import { useState } from 'react'
+import './App.css'
 import UserContextProvider from './context/UserContextProvider'
+import Login from './components/Login'
+import Profile from './components/Profile'
 
-function APP() {
+function App() {
+
   return (
+    
     <UserContextProvider>
-      <h1>Hello World</h1>
+      <h2>API Contex Tutorial</h2>
+      <Login/>
+      <Profile/>
     </UserContextProvider>
+      
+    
   )
 }
 
-export default APP
+export default App
