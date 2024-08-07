@@ -11,4 +11,6 @@ export default {
   plugins: [],
 }
 
+// remember to add darkMode: 'class'
+
 
